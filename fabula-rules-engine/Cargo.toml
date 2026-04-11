@@ -1,0 +1,15 @@
+[package]
+name = "fabula-rules-engine"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+crate-type = ["cdylib"] # compiles the rust to c
+
+[dependencies]
+wasm-bindgen = "0.2" # main library
+serde = { version = "1.0", features = ["derive"] } # serialization/deserialization
+serde-wasm-bindgen = "0.6" # allows passing rust structs to frontend
+
+[profile.release]
+opt-level = "s"  # optimize for size

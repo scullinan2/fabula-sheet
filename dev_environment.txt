@@ -1,0 +1,8 @@
+Open Powershell as admin
+'wsl'
+Navigate to the repo
+code .
+
+To run the frontend
+cd frontend
+npm run dev

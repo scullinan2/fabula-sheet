@@ -1,0 +1,1 @@
+/mnt/c/Users/13085/Desktop/repos/fabula-sheet/fabula-rules-engine/target/wasm32-unknown-unknown/release/fabula_rules_engine.wasm: /mnt/c/Users/13085/Desktop/repos/fabula-sheet/fabula-rules-engine/src/lib.rs
