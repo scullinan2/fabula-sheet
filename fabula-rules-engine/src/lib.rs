@@ -1,5 +1,7 @@
 use wasm_bindgen::prelude::*;
 
+mod player_character;
+
 #[wasm_bindgen]
 pub fn greet() -> String {
     "Rules engine loaded.".to_string()
