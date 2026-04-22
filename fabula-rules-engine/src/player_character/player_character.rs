@@ -14,18 +14,18 @@ mod tests {
 
     #[test] // marks this function as a test case
     fn test_player_character() {
-        let test_player_chracter = PlayerCharacter { 
+        let test_player_character = PlayerCharacter { 
             name: String::from("Test Name"),
             player: String::from("Test Player"),
             identity: String::from("Test Identity"),
-            theme: String::from("Test Theme")
+            theme: String::from("Test Theme"),
             origin: String::from("Test Origin")
         };
 
-        assert_eq!(test_player_chracter.name.to_lowercase(), "test name");
-        assert_eq!(test_player_chracter.player.to_lowercase(), "test player");
-        assert_eq!(test_player_chracter.identity.to_lowercase(), "test identity");
-        assert_eq!(test_player_chracter.theme.to_lowercase(), "test theme");
+        assert_eq!(test_player_character.name.to_lowercase(), "test name");
+        assert_eq!(test_player_character.player.to_lowercase(), "test player");
+        assert_eq!(test_player_character.identity.to_lowercase(), "test identity");
+        assert_eq!(test_player_character.theme.to_lowercase(), "test theme");
         assert_eq!(test_player_character.origin.to_lowercase(), "test origin");
     }
 }
