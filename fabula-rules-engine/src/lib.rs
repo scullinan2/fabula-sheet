@@ -1,5 +1,6 @@
 use wasm_bindgen::prelude::*;
 
+mod dice;
 mod player_character;
 
 #[wasm_bindgen]
